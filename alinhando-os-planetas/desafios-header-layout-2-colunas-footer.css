@@ -54,7 +54,18 @@ main {
 }
 
 footer {
-  height: 8vh;
+  margin-top: auto;
+  height: 8rem;
   background: lightgrey;
   padding: 2rem;
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
