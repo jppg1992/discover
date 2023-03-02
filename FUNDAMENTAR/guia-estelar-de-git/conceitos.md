@@ -1,0 +1,50 @@
+GIT INIT -> INICIA UM REOSITÓRIO (UTILIZADO QUANDO JÁ TEMOS ARQUIVOS EM UM PROJETO E QUEREMOS APARTIR DELE CRIAR UM REPOSITÓRIO)
+GIT CLONE -> INICIA UM REPOSITÓRIO JÁ EXISTENTE
+
+WORKING DIRETORY -> PASTA DE TRABALHO ONDE ESTAMOS ALTERANDO OS ARQUIVOS
+
+GIT ADD -> PREPARA OS ARQUIVO MODIFICADOS MANDANDO PARA A STAGE AREA
+
+STAGE AREA -> ONDE FICAM OS ARQUIVOS SELECIONADOS PARA SEREM COMMITADOS
+
+GIT COMMIT -> CRIA UM PONTO NA HISTÓRIA DO REPOSITÓRIO COM AS MODIFICAÇÕES PREPARADAS
+
+REPOSITORY (local) -> BANCO DE DADOS DOS NOSSOS ARQUIVOS, ONDE FICARÃO NOSSOS PONTOS NA HISTÓRIA OU O HISTÓRICO.
+
+-GIT WORKFLOW
+
+WORKING DIRETORY STAGE AREA LOCAL REPO
+
+FILE.TXT(V1)
+
+GIT ADD ---CRIA UMA CÓPIA-----> A FILE.TXT(V1)
+
+GIT COMMIT ------------------- MOVE A CÓPIA PARA -----> A FILE.TXT(V1)
+
+HASH VALUES (SHA-1)
+checksum - converte dados em números
+
+snapshot A
+parent: null
+author: jp  
+message:  
+first commit
+
+snapshot B
+parent: fa92c....
+author: jp
+message: second commit
+
+snapshot C
+parent: 36e3a....
+author: jp
+message: last commit
+
+\*\*HEAD
+
+HEAD é um ponteiro que aponta em que ponto da história estamos.
+
+branch-master-main  
+36e3a.... commit1
+fa92c.... commit2
+15dsf.... commit atual <--head--
