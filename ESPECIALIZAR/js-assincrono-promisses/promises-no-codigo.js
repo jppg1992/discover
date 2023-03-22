@@ -1,3 +1,4 @@
+/*
 // Promessa retorna com sucesso
 console.log('pedir uber')
 const promessa = new Promise((resolve, reject) => {
@@ -13,7 +14,7 @@ const promessa = new Promise((resolve, reject) => {
 })
 console.log('aguardando')
 promessa.then(result => console.log(result)).catch(erro => console.log(erro))
-
+*/
 // promise finalizada com rejeição ou aceite
 let aceitar = false
 
