@@ -1,0 +1,8 @@
+//import axios from 'axios';
+const axios = require('axios') // legacy way
+
+axios
+  .get('https://api.github.com/users/jppg1992')
+  .then(res => axios.get(res.data.repos_url))
+  .then(repos => console.log(repos.data))
+  .catch(error => console.log(error))
