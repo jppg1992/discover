@@ -1,0 +1,12 @@
+{
+  "chave":"valor",
+  "nome":"joão",
+  "cidade":"Bagé",
+  "livros_lidos":["Projeção Astral","Vida Após a Morte"],
+  "familia":{
+    "mae":"Carmen",
+    "namorada":"Natália",
+    "filha":"Nina"
+  }
+
+}

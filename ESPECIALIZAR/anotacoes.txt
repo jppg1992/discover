@@ -147,11 +147,36 @@ promessa
 ----------------------------------------------------------------
 ----------------------------------------------------------------
 
-Como aguardar uma promessa ser finalizada?
-Quais os quatro estágios do ciclo de vida de uma Promise?
-O que são os métodos then, catch, finally da promessa?
-o que é a fetch API do navegador e como utilizar?
-O que é a biblioteca Axios e como utilizar?
-Vamos aprender a executar mais de uma Promise ao mesmo tempo com o método .all()
-Vamos usar a plataforma https://codesandbox.io/ para exemplificar nossos códigos no browser.
-E o NodeJS para testar os códigos na máquina local.
+ O que é API?
+
+ front-end(faz o pedido) <-api-> back-end(prepara os dados)
+
+ cliente <-garçom-> cozinha
+
+ (cliente-front) faz o pedido para (garçom-api) <- que leva ou traz o pedido para -> (cozinha-back) prepara os(pratos-dados) 
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+ JSON -> formato de arquivo que geralmente são passados e retornados pelas apis
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+MÉTODOS HTTP MAIS USADOS
+
+GET 
+- API fornece informações
+
+POST 
+- a API recebe informações que devem ou não ser registradas
+
+PUT 
+- a API recebe informações para update de um ou mais registros
+
+PATCH 
+- a API recebe informações para update de um registro
+
+DELETE 
+- a API recebe identificadores de registros que devem ser apagados
+
